@@ -2,7 +2,7 @@ import { SafeUser } from "@/app/types";
 
 import Categories from "./Categories";
 import Container from "../Container";
-import Logo from "./Logo";
+import BookmyRoom from "./Logo";
 import Search from "./Search";
 import UserMenu from "./UserMenu";
 
@@ -32,7 +32,7 @@ const Navbar: React.FC<NavbarProps> = ({
             md:gap-0
           "
         >
-          <Logo />
+          <BookmyRoom />
           <Search />
           <UserMenu currentUser={currentUser} />
         </div>
